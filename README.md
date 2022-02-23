@@ -1,23 +1,23 @@
-# Replication Data for: “Do Birds of a Feather Flock Together? Rebel Constituencies and Civil War Alliances,” 
+# Replication Data for: "Do Birds of a Feather Flock Together? Rebel Constituencies and Civil War Alliances""
 
 
-## Citation: 
+## Please use the following citation: 
 
 Laia Balcells, Chong Chen, and Costantino Pischedda , “Do Birds of a Feather Flock Together? Rebel Constituencies and Civil War Alliances.” *International Studies Quarterly*, Volume 66, Issue 1, March 2022, sqab095, https://doi.org/10.1093/isq/sqab095
 
-
-For questions about the data, please contact the authors: Laia Balcells (laia.balcells@georgetown.edu), Chong Chen (chongchen@tsinghua.edu.cn) and Costantino Pischedda(cpischedda@miami.edu).
-
-
-# Instruction: 
-
-- Please check the ReadMe file first. There are four folders within the “Replication” Folder.
+ * For questions about the data, please contact the authors: Laia Balcells (laia.balcells@georgetown.edu), Chong Chen (chongchen@tsinghua.edu.cn) and Costantino Pischedda(cpischedda@miami.edu).
+ * Please note that there are large files that are uploaded with `git lfs` in this repository. To make sure you get the right size, we suggest that you use the `git lfs pull` or `git lfs clone` command to download the entire repository.
 
 
 
-- **Data**:  The data folder includes data files for all models
-   + “glm_df4.RData”:  Main data used for all of our models except for the AME Models
-   + “ame”: A folder for AME models and the model outputs (Figure 5 and Figure A11)
+# Replication Instruction: 
+
+- Please check the `ReadMe` file first. There are four folders within the repository.
+
+
+- **1. Data**:  The `data` folder includes data files for all models
+   + `glm_df4.RData`: Main data used for all of our models except for the AME Models
+   + `ame`: A folder for AME models and the model outputs (Figure 5 and Figure A11)
 		+ ``AllyList.RData``: Network data  for rebel alliances 
 		+ ``Formal_AllyList.RData``: Network data  for rebel formal alliances 
 		+ ``xDyadL.RData``: Dyadic-level covarites for AME
@@ -26,7 +26,7 @@ For questions about the data, please contact the authors: Laia Balcells (laia.ba
 		+ ``Fit_AME7909.RData``: AME results for 1947-2015 (used for making Figure A11 in the appendix)
 
 
-- **Code**: The R code for all figures and analysis; Please run them in the following order: 
+- **2. Code**: The R code for all figures and analysis; Please run them in the following order: 
 
 	``0_Figures 1-2.R``, ``1_Figures 3-5.R``, and ``2_Appendix_figures A1-A21.R``
 
@@ -38,19 +38,14 @@ For questions about the data, please contact the authors: Laia Balcells (laia.ba
 		+ ``helpFUN.R``: help R functions; They will be loaded when running the above code
                       + ``spdur_figure_setup.R``: Help R functions
 
-- **Figure**:  a folder to store all the figures in the main text
+- **3. Figure**:  a folder to store all the figures in the main text
 
-- **Appendix_figures**: a folder to store all the figures in the appendix
-
-
+- **4. Appendix_figures**: a folder to store all the figures in the appendix
 
 
 
+## R sessionInfo()
 
-################################ end of the ReadMe########################
-
-
-sessionInfo()
 R version 4.0.2 (2020-06-22)
 Platform: x86_64-apple-darwin17.0 (64-bit)
 Running under: macOS Mojave 10.14.6
