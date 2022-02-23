@@ -9,22 +9,25 @@ Laia Balcells, Chong Chen, and Costantino Pischedda , “Do Birds of a Feather F
 For questions about the data, please contact the authors: Laia Balcells (laia.balcells@georgetown.edu), Chong Chen (chongchen@tsinghua.edu.cn) and Costantino Pischedda(cpischedda@miami.edu).
 
 
-# Instruction: Please check the ReadMe file first. There are four folders within the “Replication_ISQ” Folder.
+# Instruction: 
+
+- Please check the ReadMe file first. There are four folders within the “Replication” Folder.
 
 
 
-**Data**:  The data folder includes data files for all models
-	- “glm_df4.RData”:  Main data used for all of our models except for the AME Models
-	- “ame”: A folder for AME models and the model outputs  (Figure 5 and Figure A11)
-		+ “AllyList.RData”: Network data  for rebel alliances 
-		+ “Formal_AllyList.RData”: Network data  for rebel formal alliances 
-		+ “xDyadL.RData”: Dyadic-level covarites for AME
-		+ “xNodeL.RData”: Nodal-level  covarites for AME
-		+ “Fit_AME47_15.RData”: AME results for 1947-2015 (used for making Figure 5 in the main text)
-		+ “Fit_AME7909.RData”: AME results for 1947-2015 (used for making Figure A11 in the appendix)
+- **Data**:  The data folder includes data files for all models
+- 
+   + “glm_df4.RData”:  Main data used for all of our models except for the AME Models
+   + “ame”: A folder for AME models and the model outputs (Figure 5 and Figure A11)
+		+ ``AllyList.RData``: Network data  for rebel alliances 
+		+ ``Formal_AllyList.RData``: Network data  for rebel formal alliances 
+		+ ``xDyadL.RData``: Dyadic-level covarites for AME
+		+ ``xNodeL.RData``: Nodal-level  covarites for AME
+		+ ``Fit_AME47_15.RData``: AME results for 1947-2015 (used for making Figure 5 in the main text)
+		+ ``Fit_AME7909.RData``: AME results for 1947-2015 (used for making Figure A11 in the appendix)
 
 
-**Code**: The R code for all figures and analysis; Please run them in the following order: 
+- **Code**: The R code for all figures and analysis; Please run them in the following order: 
 	0_Figures 1-2.R, 1_Figures 3-5.R, and 2_Appendix_figures A1-A21.R
 
 	- (1) “0_Figures 1-2.R”: R code for Figure 1-2 in the text
