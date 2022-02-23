@@ -16,7 +16,6 @@ For questions about the data, please contact the authors: Laia Balcells (laia.ba
 
 
 - **Data**:  The data folder includes data files for all models
-- 
    + “glm_df4.RData”:  Main data used for all of our models except for the AME Models
    + “ame”: A folder for AME models and the model outputs (Figure 5 and Figure A11)
 		+ ``AllyList.RData``: Network data  for rebel alliances 
@@ -28,19 +27,25 @@ For questions about the data, please contact the authors: Laia Balcells (laia.ba
 
 
 - **Code**: The R code for all figures and analysis; Please run them in the following order: 
-	0_Figures 1-2.R, 1_Figures 3-5.R, and 2_Appendix_figures A1-A21.R
 
-	- (1) “0_Figures 1-2.R”: R code for Figure 1-2 in the text
-           - (2) “1_Figures 3-5.R”: R code for Figure 3-5 in the text
-		+ 1_Running_AME.R: R code for AME models (Figure 5 and Figure A11)
-           - (3) “2_Appendix_figures A1-A21”: Robustness check and all appendix figures
-		+ “function_interaction_plot.R”:  Help R  functions
-		+ “helpFUN.R”: help R functions; They will be loaded when running the above code
-                      + “spdur_figure_setup.R”: Help R  functions
+	``0_Figures 1-2.R``, ``1_Figures 3-5.R``, and ``2_Appendix_figures A1-A21.R``
 
-**Figure**:  a folder to store all the figures in the main text
+	- (1) ``0_Figures 1-2.R``: R code for Figure 1-2 in the text
+        - (2) ``1_Figures 3-5.R``: R code for Figure 3-5 in the text
+		+ ``1_Running_AME.R``: R code for AME models (Figure 5 and Figure A11)
+        - (3) “2_Appendix_figures A1-A21”: Robustness check and all appendix figures
+		+ ``function_interaction_plot.R``:  Help R functions
+		+ ``helpFUN.R``: help R functions; They will be loaded when running the above code
+                      + ``spdur_figure_setup.R``: Help R functions
 
-**Appendix_figures**: a folder to store all the figures in the appendix
+- **Figure**:  a folder to store all the figures in the main text
+
+- **Appendix_figures**: a folder to store all the figures in the appendix
+
+
+
+
+
 
 ################################ end of the ReadMe########################
 
