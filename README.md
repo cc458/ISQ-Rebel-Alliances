@@ -1,14 +1,13 @@
-# Replication Data for: "Do Birds of a Feather Flock Together? Rebel Constituencies and Civil War Alliances""
+# Replication Data for: "Do Birds of a Feather Flock Together? Rebel Constituencies and Civil War Alliances"
 
 
 ## Please use the following citation: 
 
 Laia Balcells, Chong Chen, and Costantino Pischedda , “Do Birds of a Feather Flock Together? Rebel Constituencies and Civil War Alliances.” *International Studies Quarterly*, Volume 66, Issue 1, March 2022, sqab095, https://doi.org/10.1093/isq/sqab095
 
- * For questions about the data, please contact the authors: Laia Balcells (laia.balcells@georgetown.edu), Chong Chen (chongchen@tsinghua.edu.cn) and Costantino Pischedda(cpischedda@miami.edu).
- * Please note that there are large files that are uploaded with `git lfs` in this repository. To make sure you get the right size, we suggest that you use the `git lfs pull` or `git lfs clone` command to download the entire repository.
-
-
+ * For questions about the datasets, please contact the authors: Laia Balcells (laia.balcells@georgetown.edu), Costantino Pischedda(cpischedda@miami.edu), and Chong Chen (chongchen@tsinghua.edu.cn)
+ * Please note that there are large files uploaded with the `git lfs` in this repository. To make sure you ob retrieve right size of these large files from Github, we suggest that you use the `git lfs pull` or `git lfs clone` command to download the entire repository.
+ 
 
 # Replication Instruction: 
 
@@ -18,25 +17,23 @@ Laia Balcells, Chong Chen, and Costantino Pischedda , “Do Birds of a Feather F
 - **1. Data**:  The `data` folder includes data files for all models
    + `glm_df4.RData`: Main data used for all of our models except for the AME Models
    + `ame`: A folder for AME models and the model outputs (Figure 5 and Figure A11)
-		+ ``AllyList.RData``: Network data  for rebel alliances 
-		+ ``Formal_AllyList.RData``: Network data  for rebel formal alliances 
-		+ ``xDyadL.RData``: Dyadic-level covarites for AME
-		+ ``xNodeL.RData``: Nodal-level  covarites for AME
-		+ ``Fit_AME47_15.RData``: AME results for 1947-2015 (used for making Figure 5 in the main text)
-		+ ``Fit_AME7909.RData``: AME results for 1947-2015 (used for making Figure A11 in the appendix)
+		  + ``AllyList.RData``: Network data  for rebel alliances 
+	  	+ ``Formal_AllyList.RData``: Network data  for rebel formal alliances 
+		  + ``xDyadL.RData``: Dyadic-level covarites for AME
+	  	+ ``xNodeL.RData``: Nodal-level  covarites for AME
+	  	+ ``Fit_AME47_15.RData``: AME results for 1947-2015 (used for making Figure 5 in the main text)
+	  	+ ``Fit_AME7909.RData``: AME results for 1947-2015 (used for making Figure A11 in the appendix)
 
 
-- **2. Code**: The R code for all figures and analysis; Please run them in the following order: 
-
-	``0_Figures 1-2.R``, ``1_Figures 3-5.R``, and ``2_Appendix_figures A1-A21.R``
+- **2. Code**: The R code for all figures and analysis; Please run them in the following order: ``0_Figures 1-2.R`` -> ``1_Figures 3-5.R`` -> ``2_Appendix_figures A1-A21.R``
 
 	- (1) ``0_Figures 1-2.R``: R code for Figure 1-2 in the text
-        - (2) ``1_Figures 3-5.R``: R code for Figure 3-5 in the text
+  - (2) ``1_Figures 3-5.R``: R code for Figure 3-5 in the text
 		+ ``1_Running_AME.R``: R code for AME models (Figure 5 and Figure A11)
-        - (3) “2_Appendix_figures A1-A21”: Robustness check and all appendix figures
+  - (3) ``2_Appendix_figures A1-A21``: Robustness check and all appendix figures
 		+ ``function_interaction_plot.R``:  Help R functions
 		+ ``helpFUN.R``: help R functions; They will be loaded when running the above code
-                      + ``spdur_figure_setup.R``: Help R functions
+    + ``spdur_figure_setup.R``: Help R functions
 
 - **3. Figure**:  a folder to store all the figures in the main text
 
